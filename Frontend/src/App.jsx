@@ -114,7 +114,6 @@ function App() {
     return (
       <>
         <FullScreenLoader />
-        <Toaster position="top-right" />
       </>
     );
   }
@@ -180,7 +179,7 @@ function App() {
         </AnimatePresence>
       </main>
 
-      <Toaster position="top-right" />
+      {/* <Toaster position="top-right" /> */}
     </div>
   );
 }
